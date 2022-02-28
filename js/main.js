@@ -1,6 +1,4 @@
-window.onload = () => { //on page load look for service worker associated with the page
-    'use strict';
-
+function regSW() {
     if('serviceWorker' in navigator) { //if find sw then register it
         navigator.serviceWorker.register('./sw.js');
     }
