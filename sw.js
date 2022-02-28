@@ -1,5 +1,5 @@
 var PRECACHE_URLS = [
-    '/index.html', 
+    'index.html', 
     './', /*alias for index.html*/  
     'css/style.css', 
     'js/main.js', 
